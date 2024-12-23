@@ -7,6 +7,8 @@ import StudentID from "./pages/StudentID";
 import RecordBook from "./pages/RecordBook";
 import Renewal from "./pages/Renewal";
 import ChangePassword from "./pages/ChangePassword";
+import RenewalSuccess from "./pages/RenewalSuccess";
+import AlreadyRenewalSubmitted from "./pages/AlreadyRenewalSubmitted";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -16,6 +18,8 @@ const router = createBrowserRouter([
   { path: "/record-book", element: <RecordBook /> },
   { path: "/renewal", element: <Renewal /> },
   { path: "/change-password", element: <ChangePassword /> },
+  { path: "/re-success", element: <RenewalSuccess /> },
+  { path: "/re-submitted", element: <AlreadyRenewalSubmitted /> },
   { path: "/*", element: <Home /> },
 ]);
 
