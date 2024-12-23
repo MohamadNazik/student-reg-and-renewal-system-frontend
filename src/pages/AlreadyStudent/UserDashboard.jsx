@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header";
-import TextCard from "../components/TextCard";
-import PrimaryButton from "../components/PrimaryButton";
+import Header from "../../components/Header";
+import TextCard from "../../components/TextCard";
+import PrimaryButton from "../../components/PrimaryButton";
 import { Link } from "react-router-dom";
 
 function UserDashboard() {

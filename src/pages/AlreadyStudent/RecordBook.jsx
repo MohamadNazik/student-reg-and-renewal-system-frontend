@@ -1,8 +1,8 @@
 import React from "react";
-import RecordBookComponent from "../components/RecordBookComponent";
-import Header from "../components/Header";
-import PrimaryButton from "../components/PrimaryButton";
-import download_icon from "../assets/icons/download_icon.png";
+import RecordBookComponent from "../../components/RecordBookComponent";
+import Header from "../../components/Header";
+import PrimaryButton from "../../components/PrimaryButton";
+import download_icon from "../../assets/icons/download_icon.png";
 import { Link } from "react-router-dom";
 
 function RecordBook() {

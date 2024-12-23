@@ -1,8 +1,8 @@
 import React from "react";
 
-import PrimaryButton from "../components/PrimaryButton";
+import PrimaryButton from "../../components/PrimaryButton";
 import { Link } from "react-router-dom";
-import Banner from "../components/Banner";
+import Banner from "../../components/Banner";
 
 function Home() {
   return (
