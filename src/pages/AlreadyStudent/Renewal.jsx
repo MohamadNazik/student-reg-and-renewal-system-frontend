@@ -323,6 +323,20 @@ function Renewal() {
               </div>
             </div>
           </div>
+
+          {/* Buttons */}
+          <div className="flex gap-8 mt-2 sm:gap-20 sm:mt-8">
+            <SecondaryButton
+              text="Submit"
+              color="bg-green-700"
+              hoverColor="hover:bg-green-800"
+            />
+            <SecondaryButton
+              text="Cancel"
+              color="bg-red-700"
+              hoverColor="hover:bg-red-800"
+            />
+          </div>
         </form>
       </div>
     </>
