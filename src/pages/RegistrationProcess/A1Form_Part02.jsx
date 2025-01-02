@@ -25,9 +25,19 @@ function A1Form_Part02() {
             type="text"
             name="yearOfALExamination"
             className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
-          />
+         />
+       </div>
+       <div className="flex gap-2 items-center">
+         <label className="text-sm sm:text-lg xl:text-xl font-medium ml-12">
+            ii. Index No of the GCE (AL) Examination :-
+          </label>
+          <input
+            type="text"
+            name="indexOfALExamination"
+            className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+            /> 
         </div>
-      </div>
+        </div>  
     </form>
   );
 }
