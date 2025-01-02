@@ -7,13 +7,13 @@ function A1Form_Part01() {
   return (
     <>
       <div className="bg-white md:block sm:flex m-2 sm:m-5 xl:ml-8 p-2 sm:p-7 xl:p-10 shadow-md rounded-lg  justify-center">
-        <div className=" flex text-left items-center  h-screenitems-center text-sm md:text-lg border border-black rounded-sm focus:outline-1 xl:ml-20 focus:outline-black  px-2 py-1 w-[200px] h-[25px] md:w-[300px] mb-4 md:mb-6 justify-center">
+        <div className=" flex text-left items-center  h-screenitems-center text-sm md:text-lg border border-black rounded-sm focus:outline-1 xl:ml-20 focus:outline-black  px-2 py-1 w-[200px] h-[25px] md:w-[300px] mb-4 sm:mb-6 justify-center">
           A1 - Enrollment Form</div>
-        <header className="mb-4 md:flex sm:block justify-between md:mb-5">
+        <header className="mb-4 sm:flex block justify-between sm:mb-5">
           <img
             src={uov_logo}
             alt="University Logo"
-            className="w-[60px] md:w-[130px] md:h-[130px] mx-auto mb-2"
+            className="w-[60px] sm:w-[130px] sm:h-[130px] mx-auto mb-2"
           />
           <div className="block justify-center text-center mt-0 md:mt-4">
             <h1 className="text-xl sm:text-lg md:text-2xl xl:text-2xl font-semibold">UNIVERSITY OF VAVUNIYA</h1>
@@ -221,12 +221,13 @@ function A1Form_Part01() {
           {/* Next Button */}
           <button
             type="button"
-            className=" bg-green-600 text-white py-2 px-4 rounded-lg shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+            className=" bg-green-600 text-white py-2 px-4 rounded-xl shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
           >
             NEXT
           </button>
         </form>
       </div >
+
 
 
     </>
