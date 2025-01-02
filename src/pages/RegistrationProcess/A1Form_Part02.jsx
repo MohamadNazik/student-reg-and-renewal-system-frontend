@@ -137,6 +137,89 @@ function A1Form_Part02() {
     </div>
   </div>
 
+  <div class="flex flex-col gap-5">
+  <h4 class="text-lg sm:text-xl xl:text-2xl font-bold">
+     5. DETAILS OF CITIZENSHIP
+   </h4>
+
+    {/* race */}
+  <div class="flex flex-col gap-2" >
+    <div class="flex items-center gap-4">
+      <label class="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+        i. Race :-
+      </label>
+      <label class="flex items-center gap-1">
+        <input type="radio" name="race" value="Sinhala" class="border-gray-400" />
+        <span class="text-sm sm:text-base xl:text-lg font-medium">Sinhala</span>
+      </label>
+      <label class="flex items-center gap-1">
+        <input type="radio" name="race" value="Tamil" class="border-gray-400" />
+        <span class="text-sm sm:text-base xl:text-lg font-medium">Tamil</span>
+      </label>
+      <label class="flex items-center gap-1">
+        <input type="radio" name="race" value="Muslim" class="border-gray-400" />
+        <span class="text-sm sm:text-base xl:text-lg font-medium">Muslim</span>
+      </label>
+      <label class="flex items-center gap-1">
+        <input type="radio" name="race" value="Others" class="border-gray-400" />
+        <span class="text-sm sm:text-base xl:text-lg font-medium">Others</span>
+      </label>
+    </div>
+      {/* if others */}
+      <div className="flex gap-2 items-center ml-10">
+      <label className="text-xs  ml-1">
+         (PI specify )
+      </label>
+      <input
+        type="text"
+        name="anyother"
+        className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+      />
+       </div>
+  </div>
+
+    {/* Gender */}
+    <div class="flex items-center gap-4">
+     <label class="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+       ii. Gender :-
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="gender" value="Male" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">Male</span>
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="gender" value="Female" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">Female</span>
+    </label>
+  </div>
+
+    {/*civil status*/}
+    <div class="flex items-center gap-4">
+     <label class="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+      iii. Civil Status :-
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="civilStatus" value="Single" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">Single</span>
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="civilStatus" value="Married" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">Married</span>
+    </label>
+  </div>
+  {/*religion */}
+ {/* <div className="flex gap-2 items-center">
+          <label className="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+            iv.Religion:-
+          </label>
+          <input
+            type="text"
+            name="religion"
+            className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+          />
+        </div>
+
+</div>
 
     </form>
   );
