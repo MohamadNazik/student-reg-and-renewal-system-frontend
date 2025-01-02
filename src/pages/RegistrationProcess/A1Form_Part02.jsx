@@ -37,6 +37,17 @@ function A1Form_Part02() {
             className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
             /> 
         </div>
+        <div className="flex gap-2 items-center">
+         <label className="text-sm sm:text-lg xl:text-xl font-medium ml-12">
+            iii. Average Z Score :-
+          </label>
+          <input
+            type="text"
+            name="avgZscore"
+            className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+            /> 
+        </div>
+        
         </div>  
     </form>
   );
