@@ -125,7 +125,7 @@ function A1Form_Part01() {
             </div>
             <div className="flex flex-wrap gap-2 xl:gap-4 items-center w-[255px] sm:w-[673px] xl:w-[1115px]">
               <label className="text-sm sm:text-lg xl:text-2xl font-medium">
-                (iii). Name denoted by Initials :-
+                (iii). Name denoted by Initials :- 
               </label>
               <input
                 type="text"
@@ -219,14 +219,12 @@ function A1Form_Part01() {
 
 
           {/* Next Button */}
-          
-            <button
-              type="button"
-              className="md:ml-[1000px] w-[100px] bg-green-600 text-white py-2 px-4 rounded-lg shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
-            >
-              NEXT
-            </button>
-          
+          <button
+            type="button"
+            className=" bg-green-600 text-white py-2 px-4 rounded-lg shadow hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+          >
+            NEXT
+          </button>
         </form>
       </div >
 
