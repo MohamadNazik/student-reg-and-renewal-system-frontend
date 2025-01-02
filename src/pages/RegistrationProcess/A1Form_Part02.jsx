@@ -1,4 +1,5 @@
 import React from "react";
+import SecondaryButton from "../../components/SecondaryButton";
 
 function A1Form_Part02() {
   const handleSubmit = (e) => {
@@ -208,9 +209,9 @@ function A1Form_Part02() {
     </label>
   </div>
   {/*religion */}
- {/* <div className="flex gap-2 items-center">
+    <div className="flex gap-2 items-center">
           <label className="text-sm sm:text-lg xl:text-xl font-medium ml-10">
-            iv.Religion:-
+            iv. Religion:-
           </label>
           <input
             type="text"
@@ -218,7 +219,71 @@ function A1Form_Part02() {
             className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
           />
         </div>
-
+        <div className="flex flex-col gap-2">
+        <label htmlFor="dob" className="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+           v. Date of Birth :-
+        </label>
+        <input
+         type="date"
+         name="dob"
+         className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+       />
+     </div>
+        <div className="flex gap-2 items-center">
+          <label className="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+            vi. Age:-
+          </label>
+          <input
+            type="text"
+            name="age"
+            className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+          />
+        </div>
+        {/* Citizenship */}
+    <div class="flex items-center gap-4">
+     <label class="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+       vii. Citizenship :-
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="citizen" value="Sri Lankan" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">Sri Lankan</span>
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="citizen" value="Foreigner" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">Foreigner</span>
+    </label>
+  </div> 
+  <div className="flex gap-2 items-center ml-10">
+      <label className="text-xs  ml-1">
+         (if foreigner please mention the name of the country)
+      </label>
+      <input
+        type="text"
+        name="ifforeigner"
+        className="border border-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-black px-3 py-1 text-sm sm:text-base xl:text-lg w-[200px] sm:w-[300px] xl:w-[400px]"
+      />
+       </div>
+       {/* if srilankan */}
+    <div class="flex items-center gap-4">
+     <label class="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+       If Sri Lankan:-
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="srilankan" value="By Descent" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">By Descent</span>
+    </label>
+    <label class="flex items-center gap-1">
+      <input type="radio" name="srilankan" value="By Registration" class="border-gray-400" />
+      <span class="text-sm sm:text-base xl:text-lg font-medium">By Registration</span>
+    </label>
+  </div>  
+  <div className="flex gap-8 mt-2 sm:gap-20 sm:mt-8">
+            <SecondaryButton
+              text="Next"
+              color="bg-green-700"
+              hoverColor="hover:bg-green-800"
+            />
+   </div>
 </div>
 
     </form>
