@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import SecondaryButton from "../../components/SecondaryButton";
 import PdfContainer from "../../components/PdfContainer";
 
+// instruction page
+
 function Instructions() {
   return (
     <div className="h-screen flex flex-col gap-1 sm:gap-2 justify-start items-center mt-3 sm:mt-7">
