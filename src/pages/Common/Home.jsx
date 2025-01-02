@@ -9,7 +9,9 @@ function Home() {
     <div className="h-screen flex flex-col gap-3 sm:gap-5 justify-center items-center">
       <Banner />
       <div className="bg-white p-8 sm:p-14 rounded-3xl flex flex-col items-center gap-5 sm:gap-8 shadow-2xl">
-        <PrimaryButton text="PROCEED TO REGISTRATION" />
+        <Link to="check-selection">
+          <PrimaryButton text="PROCEED TO REGISTRATION" />
+        </Link>
         <Link to="/login">
           <PrimaryButton text="LOGIN TO YOUR ACCOUNT" />
         </Link>
