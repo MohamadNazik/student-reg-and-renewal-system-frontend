@@ -38,7 +38,7 @@ function A1Form_Part01() {
               </label>
               <input
                 type="text"
-                name="academic-year"
+                name="Enrollment_No "
                 className="border-2 border-black rounded-md focus:outline-1 focus:outline-black px-2 w-[285px] sm:w-[455px] xl:w-[825px] text-sm sm:text-lg xl:text-2xl py-1"
               />
             </div>
@@ -109,17 +109,17 @@ function A1Form_Part01() {
               </label>
               <input
                 type="text"
-                name="academic-year"
+                name="title"
                 className="border-2 border-black rounded-md focus:outline-1 focus:outline-black px-2 w-[220px] sm:w-[420px] xl:w-[825px] text-sm sm:text-lg xl:text-2xl py-1"
               />
               </div>
             <div className="flex flex-wrap gap-2 xl:gap-4 items-center w-[288px] sm:w-[673px] xl:w-[1115px]">
               <label className="text-sm sm:text-lg xl:text-2xl font-medium">
-                (ii). Name with :
+                (ii). Name with Initials :
               </label>
               <input
-                type="date"
-                name="dop"
+                type="text"
+                name="name_with_initials"
                 className="border-2 border-black rounded-md focus:outline-1 focus:outline-black px-2 w-[100px] sm:w-[200px] xl:w-[300px] text-sm sm:text-lg xl:text-2xl py-1"
               />
             </div>
