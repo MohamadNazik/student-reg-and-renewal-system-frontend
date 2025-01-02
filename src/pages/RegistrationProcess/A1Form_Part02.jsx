@@ -4,8 +4,7 @@ import SecondaryButton from "../../components/SecondaryButton";
 function A1Form_Part02() {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form submitted");
+   
   };
 
   return (
@@ -265,7 +264,7 @@ function A1Form_Part02() {
        </div>
        {/* if srilankan */}
     <div class="flex items-center gap-4">
-     <label class="text-sm sm:text-lg xl:text-xl font-medium ml-10">
+     <label class="text-sm sm:text-lg xl:text-xl font-medium ml-100">
        If Sri Lankan:-
     </label>
     <label class="flex items-center gap-1">
