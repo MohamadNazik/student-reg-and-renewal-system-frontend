@@ -6,15 +6,17 @@ function A1Form_Part01() {
 
   return (
     <>
-      <div className="bg-white md:block sm:flex m-2 sm:m-5 xl:m-8 p-2 sm:p-7 xl:p-10 shadow-md rounded-lg  justify-center">
-        <header className="text-center mb-4 md:flex sm:block justify-evenly md:mb-10">
+      <div className="bg-white md:block sm:flex m-2 sm:m-5 xl:ml-8 p-2 sm:p-7 xl:p-10 shadow-md rounded-lg  justify-center">
+        <div className=" flex text-left items-center  h-screenitems-center text-sm md:text-lg border border-black rounded-sm focus:outline-1 xl:ml-20 focus:outline-black  px-2 py-1 w-[200px] h-[25px] md:w-[300px] mb-4 md:mb-6 justify-center">
+          A1 - Enrollment Form</div>
+        <header className="mb-4 md:flex sm:block justify-between md:mb-5">
             <img
               src={uov_logo}
               alt="University Logo"
-              className="w-[50px] sm:w-[120px] h-auto mx-auto mb-4"
+              className="w-[60px] md:w-[130px] md:h-[130px] mx-auto mb-2"
             />
-            <div className="block ">
-            <h1 className="text-xl sm:text-lg xl:text-2xlfont-semibold">UNIVERSITY OF VAVUNIYA</h1>
+            <div className="block justify-center text-center mt-0 md:mt-4">
+            <h1 className="text-xl sm:text-lg md:text-2xl xl:text-2xl font-semibold">UNIVERSITY OF VAVUNIYA</h1>
             <p className="text-sm sm:text-lg xl:text-2xl text-gray-600">Personal Data of Students</p>
             <p className="text-sm sm:text-lg xl:text-2xl text-gray-600">
               Student Admission for the Academic Year 2022/23
@@ -22,7 +24,7 @@ function A1Form_Part01() {
             <img
               src={Y_Image}
               alt="your Image"
-              className="w-[50px] sm:w-[120px] h-auto mx-auto mb-2 mt-4  border border-black rounded-lg"
+              className="w-[50px] sm:w-[120px] md:h-[130px] mx-auto mb-2 mt-2 md:mt-0 border border-black rounded-lg"
             />
           </header>
 
@@ -113,7 +115,7 @@ function A1Form_Part01() {
               </div>
             <div className="flex flex-wrap gap-2 xl:gap-4 items-center w-[288px] sm:w-[673px] xl:w-[1115px]">
               <label className="text-sm sm:text-lg xl:text-2xl font-medium">
-                (ii). Date of payment :
+                (ii). Name with :
               </label>
               <input
                 type="date"
